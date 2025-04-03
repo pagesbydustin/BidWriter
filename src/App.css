@@ -1,0 +1,67 @@
+#mainContent {
+  max-width: 85vw;
+  /* Changed from min(1200px, 95vw) to fixed 85vw */
+  margin: 0 auto;
+  /* Changed from clamp(1rem, 5vh, 3rem) to remove top margin */
+  padding: clamp(1rem, 3vw, 3rem);
+  text-align: left;
+  background: var(--dark) !important;
+  filter: brightness(1.4) !important;
+  /* Force light background instead of var(--bg-light) */
+  border-radius: 0 0 12px 12px;
+  /* Only round bottom corners */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  border-right: 2px solid rgba(38, 2, 56, 1);
+  border-left: 2px solid rgba(38, 2, 56, .5);
+}
+
+.navbar {
+  border-bottom: rgba(38, 2, 56, 0.94);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-section {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.feature-card {
+  background: var(--secondary);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: var(--light);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-section {
+  background: var(--light);
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  #mainContent {
+    margin: 0;
+    /* Adjusted to remove top margin */
+    padding: 1rem;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding: 3rem 0;
+  }
+
+  .feature-card {
+    margin-bottom: 1rem;
+  }
+}
