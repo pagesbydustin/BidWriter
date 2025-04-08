@@ -27,7 +27,7 @@ function App() {
       <div className="App" id='app'>
         <div id='mainContent' className=''>
           {/* Hero Section */}
-          <section className="hero-section ps-5 pe-5 rounded-3 shadow d-flex align-items-center">
+          <section className="hero-section ps-5 pe-5 rounded-3 shadow d-flex align-items-center mb-5">
             <div className='row align-items-center justify-content-between w-100'>
               <div className='col-lg-5 animate-on-scroll'>
                 <h1 className='display-3 fw-bold mb-4'>Transform Your <br />Bid Writing Process</h1>
@@ -44,7 +44,7 @@ function App() {
           </section>
 
           {/* Features Section */}
-          <section id='features' className="features-section my-6">
+          <section id='features' className="features-section my-6 mb-5">
             <h2 className='text-center h1 fw-bold mb-5 animate-on-scroll'>
               Why Choose BidWriter?
             </h2>
@@ -86,7 +86,7 @@ function App() {
           </section>
 
           {/* Pricing Section */}
-          <section id="pricing" className="pricing-section my-6">
+          <section id="pricing" className="pricing-section my-6 mb-5">
             <h2 className='text-center h1 fw-bold mb-5 animate-on-scroll'>Pricing Plans</h2>
             <div className='row g-4'>
               <div className='col-md-4 animate-on-scroll'>
@@ -135,7 +135,7 @@ function App() {
           </section>
 
           {/* Call to Action Section */}
-          <section className="cta-section text-center my-6 animate-on-scroll">
+          <section className="cta-section text-center my-6 animate-on-scroll mb-5">
             <div className='row justify-content-center'>
               <div className='col-lg-8'>
                 <h2 className='display-4 fw-bold mb-4'>Ready to Win More Bids?</h2>
