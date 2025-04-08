@@ -13,7 +13,7 @@ function Navigation({ settings }) {
                     <Nav className="ms-auto">
                         <Nav.Link className='text-white' href="#app">Home</Nav.Link>
                         <Nav.Link className='text-white' href="#features">Features</Nav.Link>
-                        <Nav.Link className='text-white' href="#pricing">Pricing</Nav.Link>
+                        <Nav.Link className='text-white' href="#manage">Manage</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
