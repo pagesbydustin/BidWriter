@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navigation from './components/Navigation'
 import './App.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'  // Add this import
 
 function App() {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -67,8 +68,8 @@ function App() {
               <div className='col-md-4 animate-on-scroll'>
                 <div className='feature-card h-100'>
                   <div className='d-flex flex-column align-items-center text-center'>
-                    <div className='icon-wrapper mb-4 p-3 rounded-circle bg-primary'>
-                      <i className="bi bi-plus-circle-fill display-6"></i>
+                    <div className='icon-wrapper mb-4 p-3 rounded-circle bg-primary d-flex align-items-center justify-content-center' style={{ width: '64px', height: '64px' }}>
+                      <i className="bi bi-plus-circle-fill text-white"></i>
                     </div>
                     <h3 className='h4 mb-3'>Create New Bid</h3>
                     <p className='mb-0 opacity-85'>Start a new bid proposal with our intuitive creation wizard.</p>
@@ -78,8 +79,8 @@ function App() {
               <div className='col-md-4 animate-on-scroll'>
                 <div className='feature-card h-100'>
                   <div className='d-flex flex-column align-items-center text-center'>
-                    <div className='icon-wrapper mb-4 p-3 rounded-circle bg-primary'>
-                      <i className="bi bi-pencil-square display-6"></i>
+                    <div className='icon-wrapper mb-4 p-3 rounded-circle bg-primary d-flex align-items-center justify-content-center' style={{ width: '64px', height: '64px' }}>
+                      <i className="bi bi-pencil-square text-white"></i>
                     </div>
                     <h3 className='h4 mb-3'>Adjust Existing Bid</h3>
                     <p className='mb-0 opacity-85'>Modify and update your existing bid proposals with ease.</p>
@@ -89,8 +90,8 @@ function App() {
               <div className='col-md-4 animate-on-scroll'>
                 <div className='feature-card h-100'>
                   <div className='d-flex flex-column align-items-center text-center'>
-                    <div className='icon-wrapper mb-4 p-3 rounded-circle bg-primary'>
-                      <i className="bi bi-trash-fill display-6"></i>
+                    <div className='icon-wrapper mb-4 p-3 rounded-circle bg-primary d-flex align-items-center justify-content-center' style={{ width: '64px', height: '64px' }}>
+                      <i className="bi bi-trash-fill text-white"></i>
                     </div>
                     <h3 className='h4 mb-3'>Remove Bid</h3>
                     <p className='mb-0 opacity-85'>Safely delete unnecessary or outdated bid proposals from your system.</p>
